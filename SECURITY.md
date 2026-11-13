@@ -11,5 +11,5 @@ Please do **not** open a public issue. Report it privately on GitHub: the **Secu
 **Report a vulnerability**. You get an answer within a few days; a fix is released as soon as possible and you are
 credited in the release notes if you wish.
 
-The downloads are built from the public source by GitHub Actions; the code signing policy is at
-https://hemal1k.github.io/code-signing.html.
+The downloads are built from the public source by GitHub Actions; checksums, the privacy policy and the code signing
+policy are explained at https://hemal1k.github.io/about.html.
