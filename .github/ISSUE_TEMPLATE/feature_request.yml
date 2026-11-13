@@ -1,0 +1,16 @@
+name: Idea
+description: Something the app could do, or do better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you would like and why – the situation where you miss it.
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: How you do it now
+      description: A workaround or another app you use for it, if there is one.

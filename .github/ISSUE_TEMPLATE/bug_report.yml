@@ -1,0 +1,53 @@
+name: Bug report
+description: Something does not work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for the report! The more exact it is, the faster it can be fixed.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Settings / About of the app (for HeMi Dark the name of the release).
+      placeholder: e.g. Beta 1.6.0
+    validations:
+      required: true
+  - type: dropdown
+    id: download
+    attributes:
+      label: Installed from
+      options:
+        - The installer (Setup.exe)
+        - The portable zip
+        - Built from the source
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      description: Settings → System → About → Windows specifications.
+      placeholder: e.g. Windows 11 Pro 24H2, 125 % scaling
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Screenshots help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to repeat it
+      placeholder: |
+        1. …
+        2. …
+  - type: textarea
+    id: log
+    attributes:
+      label: Log or error text
+      description: If the app wrote an error or a log, paste it here (check that it has nothing private in it).
+      render: text
