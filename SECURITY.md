@@ -2,8 +2,9 @@
 
 ## Supported versions
 
-Only the latest release of each project gets fixes – please update first (HeMiDock updates itself; the others: the
-Releases page of the project).
+Only the latest release of each project gets fixes – please update first: HeMi Launcher keeps all HeMi apps up to
+date (HeMiDock and HeMiMizer can also update themselves), or download the latest release from the Releases page of
+the project.
 
 ## Reporting a vulnerability
 
